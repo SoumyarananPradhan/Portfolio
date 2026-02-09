@@ -5,21 +5,21 @@ export const userData = {
   name: "Soumyaranjan Pradhan",
   role: "Python Full Stack Developer | AI & ML Enthusiast",
   heroTagline: "Crafting seamless digital experiences from backend logic to frontend magic.",
-  summary: "I'm an MCA graduate from KIIT University and a passionate Python Full Stack Developer who enjoys building scalable web applications and AI-powered solutions. I focus on turning ideas into user-friendly and efficient digital products using technologies like Django, React, and REST APIs.",
-  resumeUrl: "/Soumyaranjan_Pradhan_FullStack_Resume.pdf", // Ensure this file is in your 'public' folder
+  summary: "I'm an MCA graduate from KIIT University and a passionate Python Full Stack Developer who enjoys building scalable web applications and AI-powered solutions. I focus on turning ideas into user-friendly and efficient digital products using technologies like Django, React, Redux, and REST APIs.",
+  resumeUrl: "/Soumyaranjan_Pradhan_FullStack_Resume.pdf", 
   
   // 2. Social Links
   socials: {
-    linkedin: "https://www.linkedin.com/in/soumyaranjan-pradhan-/", // Update if needed
+    linkedin: "https://www.linkedin.com/in/soumyaranjan-pradhan-/", 
     github: "https://github.com/SoumyarananPradhan",
     email: "mailto:soumyaranjanaman54@gmail.com",
     instagram: "https://www.instagram.com/_im._.aman_/?hl=en"
   },
 
-  // 3. Skills List
+  // 3. Skills List (Updated from Resume)
   skills: [
-    "Python", "Django", "React.js", "JavaScript", 
-    "REST APIs", "MySQL", "MongoDB", "HTML5/CSS3", "Tailwind CSS", "Git", "GitHub"
+    "Python", "Django", "FastAPI", "React.js", "Redux Toolkit", "JavaScript (ES6+)", 
+    "PostgreSQL", "MySQL", "MongoDB", "AWS (S3, EC2)", "Docker", "Git/GitHub", "Tailwind CSS"
   ],
 
   // Certifications
@@ -44,26 +44,32 @@ export const userData = {
   // 4. Projects
   projects: [
     {
+      title: "GenZWay",
+      description: "A production-ready e-commerce platform featuring secure JWT authentication, a persistent Redux shopping cart, and a decoupled architecture with Cloudinary image optimization.",
+      techStack: ["Django REST Framework", "React.js", "Redux Toolkit", "PostgreSQL", "Cloudinary", "Render", "Netlify"],
+      github: "https://github.com/SoumyarananPradhan/genzway-ecommerce",
+      demo: "https://superb-hummingbird-addb10.netlify.app", 
+    },
+    {
       title: "VellaVision",
-      description: "A Full Stack AI-powered application designed for advanced visual analysis. Features a modern Django 6.0+ backend with Cloudinary storage and Dockerized deployment on Railway.",
-      // ✅ UPDATED TECH STACK
-      techStack: ["Django 6.0+", "JavaScript", "HTML5/CSS3", "PostgreSQL", "Cloudinary", "Docker", "Railway"],
+      description: "A Full Stack AI-powered video sharing platform. Features secure video uploads, channel management, and auto-generated thumbnails using Cloudinary and Docker.",
+      techStack: ["Django 6.0+", "PostgreSQL", "Cloudinary", "Docker", "Railway", "HTML5/CSS3"],
       github: "https://github.com/SoumyarananPradhan/VellaVision",
       demo: "https://vellavision-production-b04d.up.railway.app/", 
     },
     {
-      title: "Anime Search DB",
-      description: "An interactive React application that fetches real-time anime data (Jikan API). Features dynamic search, filtering, and detailed info cards.",
-      techStack: ["React", "REST API", "Tailwind CSS", "Netlify"],
-      github: "https://github.com/SoumyarananPradhan/anime-search-app",
-      demo: "https://searchanim.netlify.app/",
+      title: "Face Recognition System",
+      description: "A biometric security system capable of detecting and recognizing faces in real-time with 95%+ accuracy using OpenCV and Deep Learning models.",
+      techStack: ["Python", "OpenCV", "TensorFlow/Keras", "Tkinter", "Haar Cascades", "NumPy", "Pandas"],
+      github: "https://github.com/SoumyarananPradhan/FaceRecognitionSystem",
+      demo: "#",
     },
     {
-      title: "Face Recognition System",
-      description: "A biometric security system capable of detecting and recognizing faces in real-time. Implements Haar Cascades or Deep Learning models for high accuracy.",
-      techStack: ["Python", "OpenCV", "Tkinter", "Haar Cascades", "Deep Learning", "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "Face_Recognition"],
-      github: "https://github.com/SoumyarananPradhan/Face-Recognition-System",
-      demo: "#",
+      title: "Anime Search DB",
+      description: "An interactive React application that fetches real-time anime data (Jikan API). Features dynamic search, filtering, and detailed info cards.",
+      techStack: ["React.js", "REST API", "Tailwind CSS", "Netlify"],
+      github: "https://github.com/SoumyarananPradhan/anime-search-app",
+      demo: "https://searchanim.netlify.app/",
     },
     {
       title: "Book Review System",
@@ -79,17 +85,10 @@ export const userData = {
       github: "https://github.com/SoumyarananPradhan/QR-Code-Generator-and-Reader",
       demo: "#",
     },
-    // {
-    //   title: "Personal Portfolio",
-    //   description: "The modern, responsive portfolio website you are viewing right now. Built to showcase projects with a clean UI and smooth animations.",
-    //   techStack: ["React", "Tailwind CSS", "Vite", "Framer Motion"],
-    //   github: "https://github.com/SoumyarananPradhan/My_Portfolio_Website",
-    //   demo: "https://soumya2025.pythonanywhere.com/",
-    // },
     {
       title: "Live Weather App",
       description: "A dashboard providing real-time weather updates using the OpenWeatherMap API. Features location-based search and 5-day forecasting.",
-      techStack: ["React", "OpenWeather API", "CSS Modules"],
+      techStack: ["React.js", "OpenWeather API", "CSS Modules"],
       github: "https://github.com/SoumyarananPradhan/Weather-App",
       demo: "#",
     }
