@@ -85,12 +85,5 @@ export const userData = {
       github: "https://github.com/SoumyarananPradhan/QR-Code-Generator-and-Reader",
       demo: "#",
     },
-    {
-      title: "Live Weather App",
-      description: "A dashboard providing real-time weather updates using the OpenWeatherMap API. Features location-based search and 5-day forecasting.",
-      techStack: ["React.js", "OpenWeather API", "CSS Modules"],
-      github: "https://github.com/SoumyarananPradhan/Weather-App",
-      demo: "#",
-    }
   ]
 };
