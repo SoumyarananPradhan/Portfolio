@@ -48,7 +48,7 @@ export const userData = {
       description: "A production-ready e-commerce platform featuring secure JWT authentication, a persistent Redux shopping cart, and a decoupled architecture with Cloudinary image optimization.",
       techStack: ["Django REST Framework", "React.js", "Redux Toolkit", "PostgreSQL", "Cloudinary", "Render", "Netlify"],
       github: "https://github.com/SoumyarananPradhan/genzway-ecommerce",
-      demo: "https://superb-hummingbird-addb10.netlify.app", 
+      demo: "https://genzway-ecommerce.vercel.app", 
     },
     {
       title: "VellaVision",
