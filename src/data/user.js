@@ -18,7 +18,7 @@ export const userData = {
 
   // 3. Skills List (Updated from Resume)
   skills: [
-    "Python", "Django", "FastAPI", "React.js", "Redux Toolkit", "JavaScript (ES6+)", 
+    "Python", "Django", "RESTAPI", "React.js", "Redux Toolkit", "JavaScript (ES6+)", 
     "PostgreSQL", "MySQL", "MongoDB", "AWS (S3, EC2)", "Docker", "Git/GitHub", "Tailwind CSS"
   ],
 
