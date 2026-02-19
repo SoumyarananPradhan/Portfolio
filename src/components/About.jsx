@@ -16,7 +16,7 @@ const About = () => {
           <div className="order-2 md:order-1 relative">
             <div className="absolute inset-0 bg-indigo-600 rounded-xl transform rotate-3 opacity-10"></div>
             <img 
-              src="/about-me.jpg" 
+              src="/about-me.jpeg" 
               alt="About Me" 
               className="relative rounded-xl shadow-lg w-full object-cover h-[400px]"
             />

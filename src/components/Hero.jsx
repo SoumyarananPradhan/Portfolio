@@ -68,7 +68,7 @@ const Hero = () => {
           <div className="absolute w-80 h-80 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 -bottom-4 right-10"></div>
           
           <img 
-            src="/profile-pic.jpg" 
+            src="/profile-pic.jpeg" 
             alt={userData.name}
             className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-white shadow-2xl"
           />
