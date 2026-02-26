@@ -46,7 +46,7 @@ export const userData = {
   projects: [
     {
       title: "FreshersJob Portal",
-      description: "A scalable full-stack job portal built with Django REST Framework and React that connects fresh graduates with recruiters. Features secure JWT authentication, role-based access control (RBAC), job search & application tracking, and a decoupled architecture optimized for performance and security.",
+      description: "Production-ready full-stack job portal with JWT authentication, RBAC, and recruiter–candidate workflows, built using Django REST Framework, React, and PostgreSQL.",
       techStack: ["React.js", "Vite", "Python", "Django REST Framework", "PostgreSQL", "JWT", "Vercel", "Render"],
       github: "https://github.com/SoumyarananPradhan/freshers_job_portal",
       demo: "https://freshers-job-portal.vercel.app/",
