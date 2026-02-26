@@ -20,7 +20,7 @@ export const userData = {
   skills: [
     "Python", "Django", "RESTAPI", "React.js", "Redux Toolkit", "JavaScript (ES6+)", 
     "PostgreSQL", "MySQL", "MongoDB", "AWS (S3, EC2)", "Docker", "Git/GitHub", "Tailwind CSS",
-    "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "TensorFlow/Keras", "OpenCV"
+    "NumPy", "Pandas", "Matplotlib", "OpenCV", "JWT Authentication", "Cloudinary", "Vercel", "Render", "Netlify"
   ],
 
   // Certifications
@@ -47,7 +47,7 @@ export const userData = {
     {
       title: "FreshersJob Portal",
       description: "A job portal for freshers with features like job listings, company profiles, and application tracking.",
-      techStack: ["Django", "React.js", "PostgreSQL", "JWT", "Vercel", "Render"],
+      techStack: ["React.js", "Vite", "Python", "Django REST Framework", "PostgreSQL", "JWT", "Vercel", "Render"],
       github: "https://github.com/SoumyarananPradhan/freshers_job_portal",
       demo: "https://freshers-job-portal.vercel.app/",
     },
