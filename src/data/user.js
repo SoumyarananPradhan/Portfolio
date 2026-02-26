@@ -46,7 +46,7 @@ export const userData = {
   projects: [
     {
       title: "FreshersJob Portal",
-      description: "A job portal for freshers with features like job listings, company profiles, and application tracking.",
+      description: "Developed and deployed a comprehensive full-stack Single Page Application (SPA) designed to seamlessly connect entry-level talent with recruiters. Built with a decoupled architecture, the platform prioritizes secure data handling, high performance, and a modern user experience.",
       techStack: ["React.js", "Vite", "Python", "Django REST Framework", "PostgreSQL", "JWT", "Vercel", "Render"],
       github: "https://github.com/SoumyarananPradhan/freshers_job_portal",
       demo: "https://freshers-job-portal.vercel.app/",
