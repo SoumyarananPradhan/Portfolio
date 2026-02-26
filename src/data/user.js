@@ -6,7 +6,7 @@ export const userData = {
   role: "Python Full Stack Developer | AI & ML Enthusiast",
   heroTagline: "Crafting seamless digital experiences from backend logic to frontend magic.",
   summary: "I'm an MCA graduate from KIIT University and a passionate Python Full Stack Developer who enjoys building scalable web applications and AI-powered solutions. I focus on turning ideas into user-friendly and efficient digital products using technologies like Django, React, Redux, and REST APIs.",
-  resumeUrl: "/Soumyaranjan_Pradhan_FullStack_Resume.pdf", 
+  resumeUrl: "/Soumyaranjan_Pradhan_Full_Stack_Resume.pdf", 
   
   // 2. Social Links
   socials: {
@@ -19,7 +19,8 @@ export const userData = {
   // 3. Skills List (Updated from Resume)
   skills: [
     "Python", "Django", "RESTAPI", "React.js", "Redux Toolkit", "JavaScript (ES6+)", 
-    "PostgreSQL", "MySQL", "MongoDB", "AWS (S3, EC2)", "Docker", "Git/GitHub", "Tailwind CSS"
+    "PostgreSQL", "MySQL", "MongoDB", "AWS (S3, EC2)", "Docker", "Git/GitHub", "Tailwind CSS",
+    "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "TensorFlow/Keras", "OpenCV"
   ],
 
   // Certifications
@@ -27,28 +28,42 @@ export const userData = {
     {
       title: "Python Complete Course and Flask Framework",
       issuer: "Udemy",
-      year: "2024" 
+      year: "2025" 
     },
     {
       title: "Brain Computer Interface with Deep Learning",
       issuer: "Udemy",
-      year: "2024"
+      year: "2025"
     },
     {
       title: "HTML Essentials",
       issuer: "Udemy",
-      year: "2023"
+      year: "2025"
     }
   ],
 
   // 4. Projects
   projects: [
     {
+      title: "FreshersJob Portal",
+      description: "A job portal for freshers with features like job listings, company profiles, and application tracking.",
+      techStack: ["Django", "React.js", "PostgreSQL", "JWT", "Vercel", "Render"],
+      github: "https://github.com/SoumyarananPradhan/freshers_job_portal",
+      demo: "https://freshers-job-portal.vercel.app/",
+    },
+    {
       title: "GenZWay",
       description: "A production-ready e-commerce platform featuring secure JWT authentication, a persistent Redux shopping cart, and a decoupled architecture with Cloudinary image optimization.",
       techStack: ["Django REST Framework", "React.js", "Redux Toolkit", "PostgreSQL", "Cloudinary", "Render", "Netlify"],
       github: "https://github.com/SoumyarananPradhan/genzway-ecommerce",
       demo: "https://genzway-ecommerce.vercel.app", 
+    },
+    {
+      title: "Sales Forecaster",
+      description: "A machine learning-based sales forecasting platform that predicts future sales trends using historical data and advanced algorithms.",
+      techStack: ["React.js", "Tailwind CSS", "Django REST Framework", "MongoDB", "Python", "Matplotlib", "ReportLab"],
+      github: "https://github.com/SoumyarananPradhan/Sales-Forecaster",
+      demo: "#",
     },
     {
       title: "VellaVision",
@@ -58,18 +73,25 @@ export const userData = {
       demo: "https://vellavision-production-b04d.up.railway.app/", 
     },
     {
-      title: "Face Recognition System",
-      description: "A biometric security system capable of detecting and recognizing faces in real-time with 95%+ accuracy using OpenCV and Deep Learning models.",
-      techStack: ["Python", "OpenCV", "TensorFlow/Keras", "Tkinter", "Haar Cascades", "NumPy", "Pandas"],
-      github: "https://github.com/SoumyarananPradhan/FaceRecognitionSystem",
-      demo: "#",
-    },
-    {
       title: "Anime Search DB",
       description: "An interactive React application that fetches real-time anime data (Jikan API). Features dynamic search, filtering, and detailed info cards.",
       techStack: ["React.js", "REST API", "Tailwind CSS", "Netlify"],
       github: "https://github.com/SoumyarananPradhan/anime-search-app",
       demo: "https://searchanim.netlify.app/",
+    },
+    {
+      title: "JLPT Companion",
+      description: "An interactive React application that fetches real-time JLPT study data (JLPT API). Features dynamic search, filtering, and detailed info cards.",
+      techStack: ["React.js", "Tailwind CSS", "Django REST Framework", "MongoDB", "Python", "Matplotlib", "ReportLab", "Vercel", "Render"],
+      github: "https://github.com/SoumyarananPradhan/jlpt-companion",
+      demo: "https://jlpt-companion.vercel.app/",
+    },
+    {
+      title: "Face Recognition System",
+      description: "A biometric security system capable of detecting and recognizing faces in real-time with 95%+ accuracy using OpenCV and Deep Learning models.",
+      techStack: ["Python", "OpenCV", "TensorFlow/Keras", "Tkinter", "Haar Cascades", "NumPy", "Pandas"],
+      github: "https://github.com/SoumyarananPradhan/FaceRecognitionSystem",
+      demo: "#",
     },
     {
       title: "Book Review System",
